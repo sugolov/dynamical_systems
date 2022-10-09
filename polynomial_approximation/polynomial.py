@@ -28,7 +28,7 @@ class Approximator():
         # should be called later
         self.model = None
         
-        self.optimizer = optimizer=tfk.optimizers.RMSprop(learning_rate=0.01)
+        self.optimizer = optimizer = tfk.optimizers.RMSprop(learning_rate=0.01)
         self.xlim=xlim
         
         if len(activ) == 1:
